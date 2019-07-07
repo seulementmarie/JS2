@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-flex">
+        <div class="header__left">
+          <a class="logo" href="#"
+            ><img class="logo__img" src="img/logo.png" />
+            <div>bran<span class="logo-d">d</span></div>
+          </a>
+          <form class="header__form" action="#">
+            <div class="header__form__browse">
+              Browse<img class="sort-down" src="img/sort-down-grey.svg" />
+            </div>
+            <input
+              class="header__form__input"
+              type="text"
+              placeholder="Search for item..."
+            />
+            <button class="header__form__search-button" type="submit">
+              <img class="search" src="img/search.svg" />
+            </button>
+          </form>
+        </div>
+        <div class="header__right">
+          <img class="cart" src="img/cart.svg" />
+          <a href="#" class="button"
+            >My Account<img class="sort-down" src="img/sort-down.svg"
+          /></a>
+        </div>
+      </div>
+    </header>
+    <!-- <header>
+      <button class="btn-cart" type="button">Корзина</button>
+    </header> -->
+    <main>
+      <!-- <div class="products"></div> -->
+      <div class="container cards-list"></div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
