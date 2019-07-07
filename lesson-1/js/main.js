@@ -7,7 +7,7 @@ const products = [
 
 const renderProduct = (title, price) => {
   return `<div class="card"> 
-            <img class="card__preview" src="https://www.fillmurray.com/260/280">          
+            <img class="card__preview" src="https://www.placecage.com/260/280">          
             <p class="card__descr">${title}</h3>
             <p class="card__price">${price}</p>
             <button class="button card__button">Добавить в корзину</button>
